@@ -1,0 +1,5 @@
+SELECT TOP (1000) [registration_id]
+      ,[customer_username]
+      ,[event_name]
+      ,[registration_date]
+  FROM [EventManagementDB].[dbo].[RegisteredEvents]
